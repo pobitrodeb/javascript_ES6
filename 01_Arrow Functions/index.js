@@ -18,3 +18,11 @@ let userInfo = (name, email) =>
 }; 
 
 console.log('Pobitro Debnath', 'pobitrodn@gmail.com');
+
+// Looping over a String
+let language = "JavaScript";
+let text = "";
+
+for (let x of language) {
+    text += x + " ";
+}
