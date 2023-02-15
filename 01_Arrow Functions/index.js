@@ -58,3 +58,14 @@ const numbers = [1, 2, [3, 4, 5]];
 const flatNumbers = numbers.flat();
 
 console.log(flatNumbers);
+
+//Class 
+class Person {
+    constructor(name) {
+      this.name = name;
+    }
+  }
+  
+  const person1 = new Person('John');
+  
+  console.log(person1.name); // John
