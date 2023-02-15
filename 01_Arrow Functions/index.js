@@ -51,3 +51,10 @@ const f = fruits.entries();
 for (let x of f) {
   document.getElementById("demo").innerHTML += x;
 }
+
+// the JavaScript Array flat() method
+let newArray = arrayObject.flat([depth])
+const numbers = [1, 2, [3, 4, 5]];
+const flatNumbers = numbers.flat();
+
+console.log(flatNumbers);
