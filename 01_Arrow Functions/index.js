@@ -35,3 +35,19 @@ let text = "";
 for (let x of keys) {
   text += x + "<br>";
 }
+
+// Array Find  
+const numbers = [4, 9, 16, 25, 29];
+let first = numbers.find(myFunction);
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
+
+// Object entries
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const f = fruits.entries();
+
+for (let x of f) {
+  document.getElementById("demo").innerHTML += x;
+}
