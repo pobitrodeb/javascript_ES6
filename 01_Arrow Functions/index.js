@@ -1,0 +1,11 @@
+// function number(){
+//     return 10; 
+// }
+// console.log(number());
+
+let number = () => 
+{
+    return 10; 
+
+}
+console.log(number());
