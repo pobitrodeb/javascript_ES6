@@ -10,4 +10,8 @@ var type;
 
 // console.log(type);
 
-var type = (age >= 18) ? 'adult' : 'chaild'; 
+// var type = (age >= 18) ? 'adult' : 'chaild'; 
+// console.log(type);
+var isLoggined = ture; 
+var access = isLoggined ? true : false; 
+console.log(access);
