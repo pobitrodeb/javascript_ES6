@@ -6,3 +6,6 @@ var mobile = {
 
 var keys = Object.keys(mobile);
 console.log(keys);
+
+var values = Object.values(mobile);
+console.log(values);
