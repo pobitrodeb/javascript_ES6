@@ -5,7 +5,10 @@ var mobile = {
 };
 
 var keys = Object.keys(mobile);
-console.log(keys);
+// console.log(keys);
 
 var values = Object.values(mobile);
-console.log(values);
+// console.log(values);
+
+var entries = Object.entries(mobile);
+console.log(entries);
